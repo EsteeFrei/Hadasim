@@ -1,0 +1,55 @@
+.member-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.member-table th,
+.member-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.member-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.member-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.member-table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    background-color: #56909a;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.header button {
+    background-color: #ffffff;
+    color: #567e9a;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: #d17a9a;
+}
+.logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Ensures the aspect ratio is maintained */
+    display: block; /* Ensures the image is displayed as a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+    /* Add any additional styles you want for your logo */
+  }

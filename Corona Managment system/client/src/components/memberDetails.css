@@ -1,0 +1,63 @@
+/* Style for form inputs */
+.form-control {
+  margin-bottom: 15px;
+  padding: 8px; /* Adjust padding as needed */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%; /* Change to a smaller percentage value or a fixed width */
+  font-size: 14px; /* Adjust font size as needed */
+}
+
+.file-input-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.file-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.file-input-label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Style for form header */
+span
+{
+  /* font-size: large; */
+  font-weight: bold;
+}
+
+/* Style for form container */
+.container {
+  padding-top: 20px;
+  max-width: 450px; /* Limit the width of the form container */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.button {
+  background-color: #56909a;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #d17a9a;
+}
